@@ -8,12 +8,12 @@ header {
 h1 { 
     font-style: italic;
 }
-section{background-color: white}
+section{background-color: rgb(255, 255, 255)}
 
 article{background-color: lightskyblue;}
 
 h2{
-    color: crimson;
+    color:#360b0b;
 }
  p{
      color: rgb(34, 22, 14);
