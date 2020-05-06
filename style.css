@@ -1,0 +1,31 @@
+body{background-color: #fefefe;
+}
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: #1460AA;
+}
+h1 { 
+    font-style: italic;
+}
+section{background-color: white}
+
+article{background-color: lightskyblue;}
+
+h2{
+    color: crimson;
+}
+ p{
+     color: rgb(34, 22, 14);
+ } 
+ 
+ h3{font-style: italic; color: salmon;}
+
+ .linki{background-color: #8EB1A8;}
+
+ nav a {color: rgb(0, 255, 213);}
+ a {color: yellow;}
+ // a dotyczy tylko linek wewnetrznych , nav a glownego menu w header 
+ #top {color: maroon;}
+
+ .title{color: orangered;}
