@@ -1,57 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Website development</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <a href="index.html">Strona Glowna</a>
-            <a href="nauka-html.html">Nauka html</a>
-            <a href="nauka-css.html">Nauka css</a>
-            <a href="nauka-js.html">Nauka js</a>
-        </nav>
+      <nav class="navigation" class="navigation__link">
+        <a href="index.html" class="navigation__link-homepage">Strona Glowna</a>
+        <a href="nauka-html.html" class="navigation__link">Nauka html</a>
+        <a href="nauka-css.html" class="navigation__link">Nauka css</a>
+        <a href="nauka-js.html" class="navigation__link">Nauka js</a>
+      </nav>
     </header>
 
     <main>
-        <header id="top">
-            <h1>
-                Nauka CSS
-            </h1>
+      <header id="top">
+        <h1>
+          Nauka CSS
+        </h1>
+      </header>
 
-        </header>
+      <section id="notatki">
+        <h2>CSS - cascading style sheets</h2>
+        <article>
+          <img src="Asia.jpg" alt="Asia" />
+          <h3>Essential information</h3>
+          <p>
+            style - use when CSS is inbuilt in html , all atributes between
+            style tag color #cccccc (jednakowe cyfry lub literki) and
+            wybieraczka sie wlacza link href... - zewnetrzy arkusz stylow ( css
+            file )in head section - koniecznie
+          </p>
+          <p>
+            lorem ipsum additional notes 
+          </p>
 
-        <section id="notatki">
-
-            <h2> CSS - cascading style sheets </h2>
-            <article>
-                <img src="Asia.jpg" alt="Asia" />
-                <h3> Essential information</h3>
-                <p>
-                    style - use when CSS is inbuilt in html , all atributes between style tag
-                    color #cccccc (jednakowe cyfry lub literki) and wybieraczka sie wlacza
-                    link href... - zewnetrzy arkusz stylow ( css file )in head section - koniecznie
-                </p>
-
-                <h2> Sposoby wstawainia pliku CSS w skrypcie </h2>
-            </article>
-            <h3> inside HTML syntax </h3>
-
-        </section>
-
-
+          <h2>Sposoby wstawainia pliku CSS w skrypcie</h2>
+        </article>
+        <h3>inside HTML syntax</h3>
+      </section>
     </main>
     <footer>
-        glendinning avenue weymouth <a href="#top">wroc na gore strony</a>
-        <script src="main.js"></script>
-
+      glendinning avenue weymouth <a href="#top">wroc na gore strony</a>
+      <script src="main.js"></script>
     </footer>
-
-</body>
-
+  </body>
 </html>

@@ -1,126 +1,136 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> My Website development </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website development</title>
 
     <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     <header>
-        <nav>
-            <a href="index.html">Strona Glowna</a>
-            <a href="nauka-html.html">Nauka html</a>
-            <a href="nauka-css.html">Nauka css</a>
-            <a href="nauka-js.html">Nauka js</a>
-        </nav>
+      <nav class="navigation" class="navigation__link">
+        <a href="index.html" class="navigation__link-homepage">Strona Glowna</a>
+        <a href="nauka-html.html" class="navigation__link">Nauka html</a>
+        <a href="nauka-css.html" class="navigation__link">Nauka css</a>
+        <a href="nauka-js.html" class="navigation__link">Nauka js</a>
+      </nav>
     </header>
     <main>
-        <header id="top">
-            <h1>
-                NAUKA FRONTENDU
-            </h1>
-
-        </header>
-
+      <header id="top">
+        <h1>
+          NAUKA FRONTENDU
+        </h1>
+      </header>
+      <div class="section">
         <section id="notatki">
-            <h2 class="title"> Kurs WTE </h2>
+          <h2 class="title">Kurs WTE</h2>
+          <div class="article">
             <article>
-                <img src="Misie.jpg" alt="Misie" />
-                <h3>
-                    1. Tydzien Pierwszy
-                </h3>
-                <p>
-                    1. HEAD All "settings" has to be included into <b>"head" </b>tag;<br />
-                    2. MAIN - main content of the webpage with margins ( TBC ) <br />
-                    3. BODY: Everything within "body" tags is visible for the user;<br />
-                    4. "h1-h6" - headings, the only tags which have nimber in HTML, <br />
-                    Adjusted from the biggest font (h1) to the smallest (h6)<br />
-                    5. I am on <a href="https://cotenfrontend.pl">WTF</a> <br />
-                    6. the above is an external link <br />
+              <img src="Misie.jpg" alt="Misie" />
+              <h3>
+                1. Tydzien Pierwszy
+              </h3>
+              <p>
+                1. HEAD All "settings" has to be included into
+                <b>"head" </b>tag;<br />
+                2. MAIN - main content of the webpage with margins ( TBC )
+                <br />
+                3. BODY: Everything within "body" tags is visible for the
+                user;<br />
+                4. "h1-h6" - headings, the only tags which have nimber in HTML,
+                <br />
+                Adjusted from the biggest font (h1) to the smallest (h6)<br />
+                5. I am on <a href="https://cotenfrontend.pl">WTF</a> <br />
+                6. the above is an external link <br />
+              </p>
+            </article>
+          </div>
 
+          <div class="article">
+            <article>
+              <h3>
+                2. Tydzien Drugi
+              </h3>
+              <p>
+                1. Format ducument : ctr+shift+P - this correct the layot of the
+                syntax 2. ctr+Z - go back
+              </p>
+            </article>
+          </div>
 
-                </p>
+          <div class="article">
+            <article>
+              <h3>
+                3.Tydzien Trzeci
+              </h3>
+              <p>
+                1. All sections and articles should have headings; 2. How to
+                comment out in html ? TBC with Maciek
+              </p>
+            </article>
+          </div>
+          <div class="article">
+            <article>
+              <h3>
+                4. Tydzien Czwarty
+              </h3>
+              <p>
+                1. Emmet - enable readeable syntax, and all prompts ( I downloaded
+                the forst from the top )
+              </p>
+              <p>
+                2. Prittier - to improve the layout of the script
+              </p>
+              <p>
+                Go Live extension , but all will ahve to be checked.
+              </p>
             </article>
 
+          </div>
+          
 
+          <div class="article">
             <article>
-                <h3>
-                    2. Tydzien Drugi
-                </h3>
-                <p>
-                    1. Format ducument : ctr+shift+P - this correct the layot of the syntax
-                    2. ctr+Z - go back
-                </p>
+              <h3>
+                5. Script/Syntax Checker
+              </h3>
+              <p>
+                W3 Nu.HTML.checker , settings: "show tick source", check by text
+                imput
+              </p>
             </article>
+          </div>
 
+          <div class="article">
             <article>
-                <h3>
-                    3.Tydzien Trzeci
-                </h3>
-                <p>
-                    1. All sections and articles should have headings;
-                    2. How to comment out in html ? TBC with Maciek
-                </p>
+              <h3>
+                6. w3c
+              </h3>
+              <p>
+                Cala specyfikacja ktora dotyczy html i jego standartow
+              </p>
             </article>
-
-            <article>
-                <h3>
-                    4. Tydzien Czwarty
-                </h3>
-                <p>
-                    1. Emmet - enable readeable syntax, and all prompts ( I downloaded the forst from the top )
-                </p>
-            </article>
-
-            <article>
-                <h3>
-                    5. Script/Syntax Checker
-                </h3>
-                <p>
-                    W3 Nu.HTML.checker , settings: "show tick source", check by text imput
-                </p>
-            </article>
-
-            <article>
-                <h3>
-                    6. w3c
-                </h3>
-                <p>
-                    Cala specyfikacja ktora dotyczy html i jego standartow
-                </p>
-            </article>
-
+          </div>
         </section>
+      </div class="article">
 
+      <div class="section">
         <section>
-            <h2>
-                Dev Tools
-
-            </h2>
-            <p>
-                right click and Inspect or F12<br />
-                wiecej o HTML na <a href="#notatki">Read notatki</a>
-
-            </p>
-
+          <h2>
+            Dev Tools
+          </h2>
+          <p>
+            right click and Inspect or F12<br />
+            wiecej o HTML na <a href="#notatki">Read notatki</a>
+          </p>
         </section>
-
-
-
+      </div>
     </main>
     <footer>
-        glendinning avenue weymouth <a href="#top">wroc na gore strony</a>
-        <script src="main.js"></script>
-
+      glendinning avenue weymouth <a href="#top">wroc na gore strony</a>
+      <script src="main.js"></script>
     </footer>
-
-
-</body>
-
+  </body>
 </html>
