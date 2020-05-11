@@ -27,7 +27,9 @@
     margin: auto;
 }
 
-
+.main-heading {
+    color: seagreen;
+}
 body{background-color: #fefefe;
 }
 header {
