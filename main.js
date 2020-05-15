@@ -15,3 +15,7 @@ console.log(heading);
 
 //const heading=document.querySelector('body');
 //console.log(heading);
+
+const emptyParagraph=document.querySelector('.week-summary__description--js');
+emptyParagraph.innerHTML="nawet uzuplenilam tresc javascript"
+//above should appear on the page 
