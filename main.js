@@ -10,7 +10,8 @@ console.log(button)
 });*/
 
 
-const hamburger = document.querySelector.Selector('.hamburger--js');
+
+const hamburger = document.querySelector('.hamburger--js');
 
 
 hamburger.addEventListener('click', () => {
