@@ -8,6 +8,12 @@ html {
 body{
     background: linear-gradient(70deg, rgba(2,0,36,1) 0%, rgba(9,121,120,0.9752275910364145) 68%, rgba(0,255,222,0.38139005602240894) 100%);
 }
+
+.about__picture {
+    display: block;
+    max-width: 100%;
+
+}
 .article {
     background-color:rgba(255,0,0,0.2);
     padding:16px;
@@ -83,3 +89,7 @@ h2{
  #top {color: maroon;}
 
  .title{color: orangered;}
+ 
+ .klasa-z-js {
+     background: yellow;
+ }

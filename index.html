@@ -10,26 +10,29 @@
   </head>
 
   <body>
-    <header>
-      <nav class="navigation" class="navigation__link">
-        <a href="index.html" class="navigation__link-homepage">Strona Glowna</a>
-        <a href="nauka-html.html" class="navigation__link">Nauka html</a>
-        <a href="nauka-css.html" class="navigation__link">Nauka css</a>
-        <a href="nauka-js.html" class="navigation__link">Nauka js</a>
+    <header class="header">
+      <button class="hamburger hamburger--js">Menu</button>
+      <nav class="navigation navigation--js" class="navigation__link">
+        <a class="navigation__link navigation__link-homepage" href="index.html" >Strona Glowna</a>
+        <a class="navigation__link" href="nauka-html.html" >Nauka html</a>
+        <a class="navigation__link" href="nauka-css.html" >Nauka css</a>
+        <a class="navigation__link" href="nauka-js.html" >Nauka js</a>
+        
       </nav>
     </header>
     <main class="main">
-      <header id="top">
-        <h1 class="main-heading main-heading--js">
+      <header class="main__header" id="top">
+        <h1 class="main__heading main__heading--js" id="name">
           NAUKA FRONTENDU
         </h1>
+        <button class="action--js" aria-label="Open Menu"> Change header</button>
       </header>
       <div class="section">
         <section id="notatki">
           <h2 class="title">Kurs WTE</h2>
           <div class="article">
             <article>
-              <img src="Misie.jpg" alt="Misie" />
+              <img class="about__picture" src="Misie.jpg" alt="Misie" />
               <h3>
                 1. Tydzien Pierwszy
               </h3>

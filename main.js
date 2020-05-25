@@ -1,21 +1,12 @@
-//alert ('sie ma!');
-//console.log('Uwaga, Uwaga');
-//console.log('Hej hej');
-//camelCase do nazwy zmiennych ,  variables (tbc)
-//const firstName ='Magda';
-//const age='49';
-//console.log(firstName);
-//console.log(age);
-//console.log(`Sie ma , nazwam sie ${firstName} i mam ${age} lat`)
 
-const heading=document.querySelector('.main-heading--js');
-heading.innerHTML=`Learning HTML `
+const button = document.querySelector('.action--js');
 
-console.log(heading);
+console.log(button)
 
-//const heading=document.querySelector('body');
-//console.log(heading);
+button.addEventListener('click', () => {
+    const heading = document.querySelector(".main__heading--js");
+    heading.innerHTML = `Witaj Drogi Odwiedzajacy, nazaywam sie Magda`;
+    console.log(heading.classList.contains('main__heading'));
+});
 
-const emptyParagraph=document.querySelector('.week-summary__description--js');
-emptyParagraph.innerHTML="nawet uzuplenilam tresc javascript"
-//above should appear on the page 
+
