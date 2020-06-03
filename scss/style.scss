@@ -82,9 +82,9 @@ h3 {
   top: 0;
 }
 
-.header-link {
+/*.header-link {
   color: #04ac26;
-}
+} seems to empty class*/
 
 .klasa-z-js {
   background: yellow;
@@ -93,6 +93,7 @@ h3 {
 .linki {
   background-color: #8eb1a8;
 }
+
 
 .main {
   max-width: 1000px;
@@ -106,43 +107,40 @@ h3 {
   column-gap: 16px;
   row-gap: 16px;
   grid-template-rows: 105px;
-}
-.main__header {
-  color: seagreen;
-  background: hotpink;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  text-align: center;
-}
-
-.main__heading {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  padding-left: 300px;
+  &__heading {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+  }
+  &__header {
+    color: seagreen;
+    background: hotpink;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+  }
 }
 
 .navigation {
   padding: 16px;
   display: none;
+  &__link {
+    color: #92140c;
+    display: block;
+    margin-right: 0 0 16px;
+  }
+  &__link--homepage {
+    color: rgb(224, 26, 26);
+  }
+  &--open {
+    display: block;
+  }
 }
+
 
 nav a {
   color: rgb(0, 255, 213);
-}
-
-.navigation__link {
-  color: #92140c;
-  display: block;
-  margin-right: 0 0 16px;
-}
-
-.navigation__link--homepage {
-  color: #000;
-}
-
-.navigation--open {
-  display: block;
 }
 
 p {
@@ -164,6 +162,7 @@ p {
   grid-row: 2/4;
 }
 
+
 section {
   background-color: rgb(255, 255, 255);
 }
@@ -171,6 +170,27 @@ section {
 .title {
   color: orangered;
 }
+
+
+.title::before {
+  content:"";
+  display: inline-block;
+  width:16px;
+  height:16px;
+  background: tomato;
+  border-radius: 50%;
+}
+
+.title::after {
+  content:"";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: tomato;
+  border-radius: 50%;
+
+}
+
 
 .hamburger {
   position: absolute;
@@ -192,11 +212,6 @@ section {
     align-items: center;
     justify-content: space-around;
     height: 100px;
-    align-items: center;}
+    align-items: center;
+  }
 }
-
-
-
-
-
-
