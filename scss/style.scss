@@ -130,6 +130,9 @@ h3 {
     display: block;
     margin-right: 0 0 16px;
   }
+  &:hover {
+    color:blue;
+    }  
   &__link--homepage {
     color: rgb(224, 26, 26);
   }
@@ -169,26 +172,22 @@ section {
 
 .title {
   color: orangered;
-}
-
-
-.title::before {
-  content:"";
-  display: inline-block;
-  width:16px;
-  height:16px;
-  background: tomato;
-  border-radius: 50%;
-}
-
-.title::after {
-  content:"";
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  background: tomato;
-  border-radius: 50%;
-
+  &::before {
+    content:"";
+    display: inline-block;
+    width:16px;
+    height:16px;
+    background: tomato;
+    border-radius: 50%;
+  }
+  &::after {
+    content:"";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: tomato;
+    border-radius: 50%;  
+  }  
 }
 
 

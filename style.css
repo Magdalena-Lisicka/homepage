@@ -102,6 +102,8 @@ h3 {
     color: #92140c;
     display: block;
     margin-right: 0 0 16px; }
+  .navigation:hover {
+    color: blue; }
   .navigation__link--homepage {
     color: #e01a1a; }
   .navigation--open {
@@ -127,22 +129,20 @@ section {
 
 .title {
   color: orangered; }
-
-.title::before {
-  content: "";
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  background: tomato;
-  border-radius: 50%; }
-
-.title::after {
-  content: "";
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  background: tomato;
-  border-radius: 50%; }
+  .title::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: tomato;
+    border-radius: 50%; }
+  .title::after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: tomato;
+    border-radius: 50%; }
 
 .hamburger {
   position: absolute;
