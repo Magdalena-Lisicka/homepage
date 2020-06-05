@@ -1,3 +1,6 @@
+@import "modules/footer.scss" ;
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" ;
+
 html {
   box-sizing: border-box;
 }
@@ -45,13 +48,9 @@ article {
   padding: 16px;
 }
 
-.footer {
-  color: #fff;
-  grid-area: footer;
-  background: hotpink;
-  grid-column-start: 1;
-  grid-column-end: 4;
-}
+
+
+
 
 .grid {
   display: grid;
@@ -82,6 +81,10 @@ h3 {
   top: 0;
 }
 
+.input:focus {
+  border: 3px solid yellow;
+  }  
+
 /*.header-link {
   color: #04ac26;
 } seems to empty class*/
@@ -93,7 +96,6 @@ h3 {
 .linki {
   background-color: #8eb1a8;
 }
-
 
 .main {
   max-width: 1000px;
@@ -122,6 +124,9 @@ h3 {
   }
 }
 
+/*footer*/
+
+
 .navigation {
   padding: 16px;
   display: none;
@@ -129,10 +134,14 @@ h3 {
     color: #92140c;
     display: block;
     margin-right: 0 0 16px;
+    &:hover {
+      color:blue;
+      }
+    &:focus {
+      border: 3px solid yellow;
+      }  
   }
-  &:hover {
-    color:blue;
-    }  
+  
   &__link--homepage {
     color: rgb(224, 26, 26);
   }

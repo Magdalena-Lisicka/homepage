@@ -1,3 +1,11 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css";
+.footer {
+  color: #fff;
+  grid-area: footer;
+  background: greenyellow;
+  grid-column-start: 1;
+  grid-column-end: 4; }
+
 html {
   box-sizing: border-box; }
 
@@ -34,13 +42,6 @@ article {
   grid-row: 2/4;
   padding: 16px; }
 
-.footer {
-  color: #fff;
-  grid-area: footer;
-  background: hotpink;
-  grid-column-start: 1;
-  grid-column-end: 4; }
-
 .grid {
   display: grid; }
 
@@ -64,6 +65,9 @@ h3 {
   position: fixed;
   width: 100%;
   top: 0; }
+
+.input:focus {
+  border: 3px solid yellow; }
 
 /*.header-link {
   color: #04ac26;
@@ -95,6 +99,7 @@ h3 {
     grid-column-end: 4;
     text-align: center; }
 
+/*footer*/
 .navigation {
   padding: 16px;
   display: none; }
@@ -102,8 +107,10 @@ h3 {
     color: #92140c;
     display: block;
     margin-right: 0 0 16px; }
-  .navigation:hover {
-    color: blue; }
+    .navigation__link:hover {
+      color: blue; }
+    .navigation__link:focus {
+      border: 3px solid yellow; }
   .navigation__link--homepage {
     color: #e01a1a; }
   .navigation--open {
